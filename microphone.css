@@ -1,6 +1,13 @@
 .nav {
   display: none;
 }
+.navbar_container {
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
 .qualification_container {
   height: auto;
   width: 100%;
@@ -10,6 +17,12 @@
   grid-template-columns: auto;
   gap: 20px;
   display: grid;
+}
+.qualification_container div {
+  width: 100%;
+  margin: auto;
+  height: 100%;
+  background-color: rgb(10, 10, 83);
 }
 
 .aboutUs_container {
@@ -21,19 +34,9 @@
 }
 .subContainer {
   width: 100%;
-  display: flex;
-  background-color: aquamarine;
 }
 .aboutImg_container {
-  /* background-color: rgb(195, 124, 37); */
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  /* margin-right: 20px; */
+  display: none;
 }
 
 .about_content h1 {
